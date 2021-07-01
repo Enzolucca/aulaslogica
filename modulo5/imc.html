@@ -11,20 +11,18 @@
 		pulaLinha();
 	} 
 
-	function calculaIMC(){
+	function calculaIMC(peso,altura){
 		var imc = peso / (altura * altura);
 	}
 
-	var pesoLucca = 70;
-	var alturaLucca = 1.65;
+	
 	calculaIMC(70 , 1.65);
 
-	mostra("O IMC de Lucca é " + imcLucca);
+	mostra("O IMC de Lucca é " + imc);
 
-	var pesoAmigo = 68;
-	var alturaAmigo = 1.72;
+	
 	calculaIMC(68 , 1.72);
 
-	mostra("O IMC do meu amigo é " + imcAmigo);
+	mostra("O IMC do meu amigo é " + imc);
 
 </script>
