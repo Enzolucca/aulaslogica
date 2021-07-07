@@ -14,7 +14,8 @@
 	function calculaIMC(peso1,altura1, peso2, altura2){
 		var imc1 = peso1 / (altura1 * altura1);
 		var imc2 = peso2 / (altura2 * altura2);
-		mostra("O IMC calculado é " + imc);
+		var imcTotal = imc1 + imc2;
+		mostra("A soma dos imc's é " + imcTotal);
 	}
 
 	
